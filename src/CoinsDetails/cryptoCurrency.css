@@ -1,0 +1,12 @@
+
+.app-cointainer {
+    display: flex;
+    align-items: center;
+}
+
+.heading{
+    align-self: center;
+    font-size: 26;
+    font-family: 'Times New Roman',
+    
+}
