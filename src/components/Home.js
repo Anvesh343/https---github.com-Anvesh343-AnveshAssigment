@@ -40,20 +40,13 @@ const Home = () => {
 
   return (
     <>
-    <div className='container'>
-      <div className='row g-4 mt-3 mx-auto'>
-
+    <div className='coin-gecko-container'>
+      <div className='coin-gecko-data'>
         <div>
           <h4 className='coin-text'>
             COIN GECKO
           </h4>
         </div>
-        {/* <input
-          type='text'
-          placeholder='Search a Coin'
-          className='form-control  text-light border-0 margin-top mt-4 text-center'
-          onChange={e => setSearch(e.target.value)}
-        /> */}
        <TableCoins coins={coins}  />
       </div>
       <ReactPagenate
