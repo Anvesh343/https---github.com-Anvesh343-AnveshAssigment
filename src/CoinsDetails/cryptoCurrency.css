@@ -2,10 +2,14 @@
 .app-cointainer {
     display: flex;
     align-items: center;
+    justify-content: center;
+    background-image:linear-gradient(#22c1c3, #fdbb2d);
+    height: 100vh;
 }
 
 .heading{
     align-self: center;
+    justify-content: center;
     font-size: 26;
     font-family: 'Times New Roman',
     
